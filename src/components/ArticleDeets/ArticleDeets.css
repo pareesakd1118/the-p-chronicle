@@ -1,0 +1,20 @@
+.ad-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ad-source {
+    font-family: 'Sans Pro Black';
+    color: red;
+    font-size: x-large;
+    border: solid 1px red;
+}
+
+#ad-content {
+    width: 90%;
+}
+
+#ad-title {
+    width: 80%;
+}
