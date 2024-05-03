@@ -5,19 +5,6 @@ const sampleData = {
         {
             "source": {
                 "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "1970-01-01T00:00:00Z",
-            "content": "[Removed]"
-        },
-        {
-            "source": {
-                "id": null,
                 "name": "Gizmodo.jp"
             },
             "author": "小暮ひさのり",
@@ -96,4 +83,4 @@ const sampleData = {
     ]
 };
 
-export { sampleData };
+export default sampleData;

@@ -1,10 +1,17 @@
-import logo from '../../assests/logo.svg';
 import './App.css';
-import MainPage from "../MainPage/MainPage"
+import NavBar from "../NavBar/NavBar"
+import ArticleContainer from "../ArticleContainer/ArticleContainer"
+import { Routes, Route } from 'react-router-dom';
+import sampleData from "../../assets/sampleData"
 
 function App() {
   return (
-    <MainPage />
+    <>
+    <NavBar />
+    <Routes>
+      <Route path="/" element={<ArticleContainer />} />
+    </Routes>
+    </>
   );
 }
 

@@ -1,13 +1,17 @@
-import "Article.css"
+import "./Article.css"
 
-export default function Article({ id, author, title, imageUrl, date }) {
+export default function Article({ id, author, title, source, imageUrl, date }) {
 
     return (
         <div className="article" id={id}>
-            <img src={imageUrl} alt={title} />
-            <h3>{title}</h3>
-            <p>{author}</p>
-            <p>{date}</p>
+            <img id="a-img" src={imageUrl} alt={title} />
+            <p id="a-source">{source}</p>
+            <h3 id="a-title">{title}</h3>
+            <div id="a-divider" className="divider"></div>
+            <div id="a-authdate-div">
+                <p>{date}</p>
+                <p id="a-auth">{author}</p>
+            </div>
         </div>
     )
 }

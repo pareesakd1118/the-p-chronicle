@@ -1,0 +1,33 @@
+nav {
+    margin-bottom: 1%;
+}
+
+h1, h2 {
+    margin: 0;
+    font-family: 'Sans Pro Black';
+}
+
+h1 {
+    padding-top: 1%; 
+    margin-bottom: -13px;
+    font-size: xxx-large; 
+}
+
+h2 {
+    margin-top: -13px;
+    margin-bottom: 0.5%;
+    color: rgb(120, 120, 120);
+    font-size: xx-large
+}
+
+body {
+    background-color: rgb(253, 253, 253); 
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@font-face {
+    font-family: 'Sans Pro Black';
+    src: url('../../assets/source-sans-pro.black.ttf');
+}
+

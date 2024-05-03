@@ -1,0 +1,50 @@
+.article {
+    background-color: white;
+    width: 97%;
+    height: 50vh;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#a-img {
+    width: 100%; 
+    height: 30vh;
+    border-radius: 10px 10px 0 0;
+}
+
+#a-source {
+    margin: 0;
+    margin-left: 2.5%;
+}
+
+#a-title {
+    margin-left: 2.5%;
+    margin-top: 1.5%
+}
+
+#a-authdate-div {
+    display: flex;
+    color: #a7a7a7;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    margin-left: 2.5%;
+    font-size: small;
+}
+
+#a-auth {
+    margin-left: 1%
+}
+
+#a-divider {
+    position: absolute; 
+    bottom: 10%;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ccc; 
+    width: 100%; 
+    margin: 0 auto; 
+}
